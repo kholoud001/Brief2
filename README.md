@@ -12,6 +12,9 @@ Ce site Web présente des informations sur la culture de l'olivier et des arbres
 - CSS
 - JavaScript
 - [Ionicons](https://ionicons.com/)
+  
+##  Lien Figma
+https://www.figma.com/file/DsXOUybcsoZHKwmw6PP8p5/Site-Olive?type=design&node-id=0%3A1&mode=design&t=FW88thFLODThUX6c-1
 
 ## Aperçu
 Page Acceuil
@@ -20,6 +23,11 @@ Page Culture
 ![](/images/Screenshot_culture1.png)
 ![](/images/Screenshot_culture2.png)
 Page Taille
+![](/images/Screenshot_taille1.png)
+![](/images/Screenshot_taille2.png)
+Page Varietes
+
+Page Livres
 
 
 
