@@ -18,17 +18,27 @@ https://www.figma.com/file/DsXOUybcsoZHKwmw6PP8p5/Site-Olive?type=design&node-id
 
 ## Aperçu
 Page Acceuil
+
 ![](/images/Screenshot_Olive.png)
+
 Page Culture
+
 ![](/images/Screenshot_culture1.png)
 ![](/images/Screenshot_culture2.png)
+
 Page Taille
+
 ![](/images/Screenshot_taille1.png)
 ![](/images/Screenshot_taille2.png)
+
 Page Varietes
+
+![](/images/Screenshot_var1.png)
+![](/images/Screenshot_var2.png)
 
 Page Livres
 
-
+![](/images/Screenshot_livre1.png)
+![](/images/Screenshot_livre2.png)
 
 
