@@ -15,5 +15,5 @@ Ce site Web présente des informations sur la culture de l'olivier et des arbres
 
 ## Aperçu
 
-![Capture d'écran du site](Screenshot Olive.png)
+![Screenshot Olive.png]
 
