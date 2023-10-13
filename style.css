@@ -1,0 +1,280 @@
+* {
+    padding:0;
+    margin:0;
+    transition: all 0.5s;
+}
+body {
+    font-family:  sans-serif;
+    font-size: 14px;
+}
+.bg{
+    background-image:url("images/home.png") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100%;
+
+}
+.bg-home{
+    background-image:url("images/home.png") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+}
+
+.logo-1{
+    width: 	280px;
+    height: 60px;
+    padding-left: 50px;
+    transform: scale(110%);
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar {
+    position: relative;
+    right: 0;
+    left: 0;
+    top: 30px;
+    width: 100%;
+    height:65px;
+    background: transparent;
+    z-index: 1000;
+    background-color: rgba(222, 221, 221, 0.5); 
+    backdrop-filter: blur(2px);
+}
+
+
+.navbar-nav  {
+    list-style-type: none;
+    display: flex;
+    padding-right: 50px;
+}
+
+.nav-link{
+    text-decoration:none;
+    padding-right: 40px;
+}
+
+.navbar-nav  > li > a {
+    color: #2B3618;
+    font-size:larger;
+    font-weight: bold;
+}
+/*
+.navbar-nav li.active {
+
+ background-color: #678909;
+}*/
+.description-box{
+    position: absolute;
+    width: 350px;
+    height:200px;
+    right: 10%;
+    top: 40%;
+    border: 2px solid rgba(222, 221, 221, 0.5);
+    border-radius: 20px;
+    background-color: rgba(222, 221, 221, 0.5); /* Use rgba to set transparent background */
+    backdrop-filter: blur(10px);
+}
+
+.description{
+    line-height: 2;
+    padding-left:20px ;
+    color: #2B3618;
+    font-size:x-large;
+    font-weight: bold;
+}
+
+footer{
+   /* background-color:#2B3618;*/
+    color: white; /* Text color for the footer */
+    text-align: center; /* Center-align text within the footer */
+    padding: 8px;
+    background-color: rgba(43, 54, 24, 0.8);
+
+}
+
+/* Initial styles for ion-icon tags */
+.foot ion-icon {
+    font-size: 20px; /* Set the initial font size */
+    margin: 10px; /* Add some spacing between icons */
+    color: #fff; /* Initial color */
+    /*transition: color 0.3s, transform 0.3s, font-size 0.3s; /* Add transitions for color, transform, and font-size */
+}
+
+/* Hover effect for ion-icon tags */
+.foot ion-icon:hover {
+    color: #678909; /* Change color to blue on hover */
+    transform: scale(1.2); /* Increase size on hover (1.2 times the original size) */
+}
+
+
+
+/***********  Taille file**********/
+.taille{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-box{
+    margin-top: 100px;
+    height: 100%;
+    width: 800px;
+    /* border: 2px solid rgba(16, 57, 27, 0.5); */
+    border-radius: 20px;
+    background-color: rgba(43, 54, 24, 0.5);
+    backdrop-filter: blur(20px);
+    margin-bottom: 50px;
+}
+
+.taille-content{
+    color:white;
+}
+
+.taille-img{
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 600px; 
+    height: 300px;
+    border-radius: 20px;
+}
+
+.taille-titre{
+    margin-top: 20px;
+    margin-left: 300px;
+    margin-bottom: 30px;
+}
+
+h1{
+    margin-top: 10px;
+    text-align:center ;
+}
+.taille-text, .taille-text1, h2,h3, h4{
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+.box-livre{
+    display: flex;
+    flex-direction: column;
+}
+.livre{
+    display: flex;
+    justify-content: center;
+}
+
+.livre-img{
+    width:  500px;
+    height:350px;
+    border-radius: 10px;
+}
+.secateur-box  {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.secateur{
+    width:150px;
+    height:250px;
+    border-radius: 10px;
+}
+.secateur-ele{
+    width:150px;
+    height:250px;
+    border-radius: 10px;
+}
+
+
+.secateur:hover, .secateur-ele, .livre-img:hover{
+    transform: scale(1.1);
+    box-shadow: 4px 0px 32px 2px rgb(255, 255, 255);
+}
+
+
+
+
+/***** button to show the text ******/
+.paragraph-container{
+    display: none; /* Initially set the opacity to 0 to hide paragraphs */
+}
+
+#showParagraphs-button  {
+    margin-left: 100px;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #b1c871;
+    padding: 10px 20px;
+    border: solid #b1c871 2px;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    border-radius: 50px;
+    transition : 821ms;
+    transform: translateY(0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+
+#showParagraphs-button:hover {
+    background-color: #678909;
+}
+
+
+
+
+/*****lire-egalement****/
+ .lire{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    gap:50px;
+} 
+.lire-egalement{
+    justify-content: center;
+    align-items: center;
+}
+
+.lire-egalement> a{
+    text-decoration: none;
+    color:white;
+}
+.lire-img{
+    width:280px;
+    height:200px;
+    border-radius: 10px;
+}
+/*Hover on the pictures on à lire également*/
+.lire-img:hover {
+
+    transform: scale(1.1); /* Increase size on hover (1.2 times the original size) */
+    box-shadow: 4px 0px 32px 2px rgb(255, 255, 255);
+}
+
+
+.lire-text{
+    text-align: center;
+    font-size: large;
+}
+
+.plus{
+    margin: 0px 100px ;
+    padding: 20px 10px;
+    border:2px solid rgb(103,137,9);
+}
+.plus:hover {
+    transform: scale(1.1); /* Increase size on hover (1.2 times the original size) */
+}
+
+.plus a{
+    text-decoration: none;
+    color:white;
+}
+
+
